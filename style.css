@@ -94,3 +94,33 @@ h2 {
         padding: 0 20px;
     }
 }
+
+@media (max-width: 767px) {
+    body {
+        padding: 2.5vh 0 7vh;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .info,
+    .stats {
+        text-align: center;
+    }
+    .game div {
+        margin: 3px;
+        border: 2.5px solid #fff;
+    }
+    .play input {
+        height: auto;
+        width: auto;
+        font-size: 24px;
+    }
+    .play button {
+        height: 10vh;
+        width: 65vw;
+        padding: 0;
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+}
